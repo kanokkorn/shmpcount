@@ -4,7 +4,7 @@ OpenCV desktop app with Qt5
 
 ## Install Binary
 
-Download from [Releases](https://github.com/kanokkorn/shmpcount/releases) 
+Download from [Releases](https://github.com/kanokkorn/shmpcount/releases)
 
 ## Development
 
