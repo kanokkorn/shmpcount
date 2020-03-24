@@ -24,6 +24,12 @@ git clone https://github.com/kanokkorn/shmpcount.git
 pip3 install -r requires.txt
 ```
 
+- convert .ui files to .py
+
+```bash
+python -m PyQt5.uic.pyuic -x <ui-files> -o <output>
+```
+
 ## License
 
 [BSD 3](https://github.com/kanokkorn/shmpcount/blob/master/LICENSE)
