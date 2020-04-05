@@ -1,6 +1,6 @@
 # shmpcount
 
-OpenCV desktop app with Qt5
+OpenCV desktop app with GTK+
 
 ## Install Binary
 
@@ -8,27 +8,28 @@ Download from [Releases](https://github.com/kanokkorn/shmpcount/releases)
 
 ## Development
 
-Follow these instructions
+These dependencies are required
 
-- Download [Git](https://git-scm.com/) and [Python 3.6 or higher](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/)
+- [Python 3.6 or higher](https://www.python.org/downloads/)
+- [PyCairo](http://ftp.gnome.org/pub/GNOME/binaries/win32/pycairo/) 
+- [PYGobject](http://ftp.gnome.org/pub/GNOME/binaries/win32/pygobject/)
+- [GTK+ Runtime](http://ftp.gnome.org/pub/GNOME/binaries/win64/gtk+/)
+- [Glade](https://glade.gnome.org/) For developing UI
 
-- clone this repository
+clone this repo
 
 ```bash
 git clone https://github.com/kanokkorn/shmpcount.git
 ```
 
-- install python 3 packages
+install python 3 packages
 
 ```bash
 pip3 install -r requires.txt
 ```
 
-- convert .ui files to .py
-
-```bash
-python -m PyQt5.uic.pyuic -x <ui-files> -o <output>
-```
+UI files are locate in  ```ui``` folder
 
 ## License
 
