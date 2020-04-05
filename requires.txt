@@ -1,4 +1,4 @@
 opencv-python
 opencv-contrib-python
-pyqt5
+PyGTK
 pyinstaller
