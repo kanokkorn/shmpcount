@@ -14,25 +14,30 @@ Assume you have x64 processor
 
 ### Windows
 
-- [Git](https://git-scm.com/)
 - [Python 3.6 or higher](https://www.python.org/downloads/)
 - [Cairo](http://ftp.gnome.org/pub/GNOME/binaries/win64/dependencies/cairo_1.8.8-1_win64.zip)
-- [PYGobject](http://ftp.gnome.org/pub/GNOME/binaries/win32/pygobject/)
+- [PyGobject](http://ftp.gnome.org/pub/GNOME/binaries/win32/pygobject/)
 - [GTK+ Runtime](http://ftp.gnome.org/pub/GNOME/binaries/win64/gtk+/)
 - [Glade](https://glade.gnome.org/) For developing UI
 
-### Linux
+### Ubuntu
 
-clone this repo
+- Python3
 
 ```bash
-git clone https://github.com/kanokkorn/shmpcount.git
+sudo apt install -y python3-dev python3-pip
 ```
 
-install python 3 packages
+- GTK+2
 
 ```bash
-pip3 install -r requires.txt
+sudo apt install -y build-essential gtk+2.0 libcairo2-dev libjpeg-dev libgif-dev
+```
+
+- Glade (Optional)
+
+```bash
+sudo apt-get install -y glade-gtk2
 ```
 
 UI files are locate in  ```ui``` folder
