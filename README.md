@@ -14,6 +14,8 @@ Assume you have x64 processor
 
 ### Windows
 
+Can be compile from source, but pre-build binaries are recommend
+
 - [Python 3.6 or higher](https://www.python.org/downloads/)
 - [Cairo](http://ftp.gnome.org/pub/GNOME/binaries/win64/dependencies/cairo_1.8.8-1_win64.zip)
 - [PyGobject](http://ftp.gnome.org/pub/GNOME/binaries/win32/pygobject/)
@@ -32,6 +34,12 @@ sudo apt install -y python3-dev python3-pip
 
 ```bash
 sudo apt install -y build-essential gtk+2.0 libcairo2-dev libjpeg-dev libgif-dev
+```
+
+- Python binding
+
+```bash
+sudo apt install -y python3-gi-cairo python3-gi
 ```
 
 - Glade (Optional)
